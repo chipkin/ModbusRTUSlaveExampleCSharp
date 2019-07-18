@@ -1,0 +1,8 @@
+{
+  "profiles": {
+    "ModbusRTUSlaveExampleCSharp": {
+      "commandName": "Project",
+      "workingDirectory": "../bin"
+    }
+  }
+}

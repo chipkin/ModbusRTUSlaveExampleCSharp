@@ -1,0 +1,6 @@
+
+bin/
+
+ModbusRTUSlaveExampleCSharp/\.vs/
+
+ModbusRTUSlaveExampleCSharp/obj/
