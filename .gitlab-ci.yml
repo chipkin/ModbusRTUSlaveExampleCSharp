@@ -18,11 +18,9 @@ Build:
     # Create the bin directory if it does not exist
     - cd ModbusRTUSlaveExampleCSharp
     # Restore any nuget or other dependencies needed for the project
-    - msbuild /t:Restore /p:Configuration=Release /p:Platform=AnyCPU
+    - msbuild /t:Restore /p:Configuration=Release /p:Platform="Any CPU"
     # Build and package the project in an apk for android
-    - msbuild /p:Configuration=Release /p:Platform=AnyCPU
-    - cd bin\
-    - dir
+    - msbuild /p:Configuration=Release /p:Platform="Any CPU"
   artifacts:
     paths:
       - bin\netcoreapp2.1\ModbusRTUSlaveExampleCSharp.dll
